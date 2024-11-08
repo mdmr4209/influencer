@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+/* nav */
+nav>img {
+    display: none;
+}
+
+nav {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+    justify-content: space-between;
+    align-items: center;
+    margin: 85px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav img {
+    padding-top: 15px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 1325px;
+}
+
+.banner-img {
+    background-image: url("images/Circle design.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 30px 20px 30px 20px;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.btn-primary {
+    display: flex;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    border: 0;
+}
+
+/* sponsors */
+.sponsors {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding-top: 70px;
+}
+
+.sponsors ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+/* collection */
+.collection {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    max-width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.collection-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    padding: 50px;
+}
+
+.collection ul {
+    display: grid;
+    list-style: none;
+    gap: 30px;
+}
+
+.collection-card {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection ul>li {
+    padding: 0 0 0 15px;
+    max-width: 320px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+    padding: 15px 15px 0px 0;
+}
+
+.card-title {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.card-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 5px 0;
+}
+
+.card-rating {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card-description {
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.rating1 {
+    padding-right: 7px;
+}
+
+.card-rating span {
+    padding-bottom: 4px;
+}
+
+.more {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+}
+
+.more p {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.feature {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 95px;
+}
+
+.feature>img {
+    border-radius: 7px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 500px;
+    padding-bottom: 20px;
+}
+
+.btn-primary1 {
+    display: flex;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    border: 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 45px 0;
+    margin-top: 100px;
+    background: #0A0826;
+    color: #FFF;
+    border: 5px solid #0A0826;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:576px) {
+    nav .li1 {
+        display: none;
+    }
+
+    nav>img {
+        display: flex;
+        padding: 0 25px;
+    }
+
+    .nav-title {
+        font-size: 16px;
+    }
+
+    nav {
+        margin: 10px auto;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        padding: 0 0 0 15px;
+        margin: 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .btn-primary {
+        border: 0;
+        margin: auto;
+    }
+
+    .banner-img {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .banner-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .sponsors ul {
+        flex-wrap: wrap;
+    }
+
+    .sponsors {
+        padding-top: 20px;
+    }
+
+    .sponsors img {
+        width: 60%;
+    }
+
+    .collection-card {
+        grid-template-columns: 1fr;
+        max-width: 330px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .feature {
+        flex-direction: column-reverse;
+        text-align: center;
+        max-width: 365px;
+        gap: 50px;
+    }
+
+    .feature>img {
+        margin: 0 30px;
+    }
+
+    .feature-description {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .btn-primary1 {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:1130px) {
+    nav {
+        margin: 85px 50px;
+    }
+}
